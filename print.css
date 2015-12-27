@@ -1,0 +1,84 @@
+/* RESET STYLES FIRST
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* And now for something completely different ... */
+
+
+body { background: #eee url('paper-bg.png') top left repeat; color: #333; line-height: 1.4em;
+  font-family: Helvetica, Arial, Verdana, sans-serif; }
+h2, h3, h4 { text-transform: uppercase; letter-spacing: -1px; }
+h1 { font-weight: bold; font-size: 2.7em; letter-spacing: -1px; line-height: 0.9em; }
+h2 { font-weight: bold; font-size: 0.95em; color: #bfbfbf; color: rgba(0,0,0,0.25); line-height: 1em; }
+h3 { font-weight: bold; font-size: 1.2em; color: #bfbfbf; color: rgba(0,0,0,0.25); border-bottom: 1px solid #e3e3e3; }
+dt { font-weight: bold; font-size: 1.2em; }
+ul li div { margin: 0 0 1em 0; }
+ul li p { font-style: italic; }
+ul ul, .affSect ul, .pubSect ul, .refSect ul { margin-left: 2em; list-style: disc; line-height: 1.2em; }
+li h4 { font-weight: bold; font-size: 1.2em; text-transform: capitalize; }
+i { font-style: italic; }
+a:link, a:visited { text-decoration: none; color: #36c; word-wrap: break-word; }
+.expSect a:after, .eduSect a:after, .portSect a:after, .affSect a:after, .pubSect a:after
+	{ content: " (" attr(href) ")"; font-size: 80%; }
+.clear { clear: both; }
+
+.pagehead { margin: 1em 0; }
+.contact { font-size: 0.8em; line-height: 1.1em; color: #999; }
+.photo img { width: 100%; height: auto; border: 3px solid #fff; }
+.hasphoto .photo { float: left; width: 10%; margin: 0 2% 0 0; }
+.hasphoto .titleHead { clear: none; width: 53%; }
+
+.objective, .skills, .expSect, .eduSect, .refSect, .portSect, .affSect, .pubSect { margin-bottom: 1.5em; }
+
+.skillList { margin: 1em 0; page-break-inside: avoid; }
+.skillList ul, .skillList li { margin: 0; padding: 0; list-style: none; }
+.skillList li { margin: 2px 0; font-size: 0.9em; position: relative; display: block; background: #fff; background: rgba(255,255,255,0.5); }
+.skillList span { display: block; position: absolute; top: -2px; left: 0; height: 100%; overflow: hidden; }
+.skillList strong { font-weight: normal; display: block; position: relative; z-index: 2; padding: 1px 0; font-size: 0.9em; color: #aaa; }
+.skill1 h4 { color: #dd5656; color: rgba(204,0,0,0.66); }
+.skill1 li span { border-bottom: 2px solid #dd5656; }
+.skill2 h4 { color: #dd996e; color: rgba(204,101,36,0.66); }
+.skill2 li span { border-bottom: 2px solid #dd996e; }
+.skill3 li span { border-bottom: 2px solid #f5e46f; }
+.skill4 h4 { color: #6ebb56; color: rgba(0,153,0,0.66); }
+.skill4 li span { border-bottom: 2px solid #6ebb56; }
+.skill5 h4 { color: #5699dd; color: rgba(0,102,204,0.66); }
+.skill5 li span { border-bottom: 2px solid #5699dd; }
+.guru span { width: 95%; }
+.master span { width: 80%; }
+.adept span { width: 60%; }
+.journeyman span { width: 40%; }
+.novice span { width: 20%; }
+
+.location, .dates { font-size: 0.8em; text-transform: uppercase; color: #bbb; display: inline-block; margin-right: 15px; line-height: 1em; }
+
+.nav, .social { display: none; }
+.mainResume { width: 65%; float: left; }
+.expSect { padding-top: 0; }
+.expSect .experience, .eduSect .education { page-break-inside: avoid; }
+.contact, .skills, .social { width: 30%; margin-left: 5%; }
+.contact { float: right; }
+.skills, .social { float: left; }
+.skillList { float: none; width: 100%; margin-right: 0; }
+.skillchunk { clear: none; }
+
+.pubSect cite { font-style: italic; }
+.refSect .fn { font-weight: bold; }
