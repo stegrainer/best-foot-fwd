@@ -29,9 +29,9 @@ The images will only appear on the web. (They are placed as background images, a
 
 ## Features:
 - Fully responsive
-	- quick navigation points for smaller screens
-	- fluid design up to 1000 pixels wide (to maintain maximum readable line lengths)
-	- icons for location/date in experience and education look crisp even on high DPI displays
+  - quick navigation points for smaller screens
+  - fluid design up to 1000 pixels wide (to maintain maximum readable line lengths)
+  - icons for location/date in experience and education look crisp even on high DPI displays
 - hResume microformat for better semantic parsing by search engines
 - Great print stylesheet; leave the Word or PDF résumé on your old ZIP disk
 - Highlight the depth of your skills - visually convey which skills are strengths and which skills are average
@@ -41,11 +41,11 @@ The images will only appear on the web. (They are placed as background images, a
 ## Setup
 
 1. Customize the résumé to your heart's content.
-  a. If you're comfortable with HTML, feel free to dive right in and add your own personal details. Make sure to leave the classes intact to maintain the styles and hResume microformat.
-  b. If you're new to HTML, you have a few options.
-    i. Find a good "WYSIWYG" (What You See Is What You Get) web editor - a quick search on Google points me toward several reasonable sounding options, the most popular of which seems to be KompoZer.
-    ii. If you have a friend or family member who knows HTML, have them edit the page with your changes.
-    iii. Tough it out and add novice HTML to your skills
+  - If you're comfortable with HTML, feel free to dive right in and add your own personal details. Make sure to leave the classes intact to maintain the styles and hResume microformat.
+  - If you're new to HTML, you have a few options.
+    - Find a good "WYSIWYG" (What You See Is What You Get) web editor - a quick search on Google points me toward several reasonable sounding options, the most popular of which seems to be KompoZer.
+    - If you have a friend or family member who knows HTML, have them edit the page with your changes.
+    - Tough it out and add novice HTML to your skills
 2. There are a couple things to note on customizing your résumé:
   - For the photo, I recommend an image roughly 400 pixels wide by 500 pixels tall at 72 dpi. (The higher resolution looks better on high-DPI/retina displays.)
     - If you would prefer to remove the photo, you will need to:
