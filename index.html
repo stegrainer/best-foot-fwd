@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Best Foot Forward by stegrainer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Best Foot Forward</h1>
+      <h2 class="project-tagline">A responsive HTML resume with print stylesheet and microformats</h2>
+      <a href="https://github.com/stegrainer/best-foot-fwd" class="btn">View on GitHub</a>
+      <a href="https://github.com/stegrainer/best-foot-fwd/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/stegrainer/best-foot-fwd/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="best-foot-forward" class="anchor" href="#best-foot-forward" aria-hidden="true"><span class="octicon octicon-link"></span></a>Best Foot Forward</h1>
+
+<p>Best Foot Forward is a starter template for a web-based résumé. With this template, your résumé will look great on any device, and even printed. It's responsive, which means the content adapts to fit the device you're viewing it from. It uses the hResume microformat which means that it's easier for search engines and job services to correctly parse and categorize your résumé.</p>
+
+<h2>
+<a id="contents" class="anchor" href="#contents" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contents</h2>
+
+<p>The ZIP file you received contains several files:</p>
+
+<ul>
+<li>This very helpful README file</li>
+<li>index.html - the résumé file itself</li>
+<li>styles.css - the primary stylesheet</li>
+<li>print.css - the printed stylesheet</li>
+<li>respond.min.js - javascript file to make the responsive stylesheet work in Internet Explorer</li>
+<li>photo.png - generic "photo" image as a placeholder for the photo in the template</li>
+<li>/images
+
+<ul>
+<li>marker.gif - the map marker image that appears next to locations</li>
+<li>marker-sm.gif - a smaller map marker image for IE variants</li>
+<li>calendar.gif - the calendar image that appears next to dates</li>
+<li>calendar-sm.gif - a smaller calendar image for IE variants</li>
+<li>paper-bg.png - the paper background on the 'light' theme</li>
+<li>dark-bg.png - the dark background on the 'dark' theme</li>
+<li>wood-bg.png - the wood background on the 'medium' theme</li>
+<li>dribbble.png - image for Dribbble links</li>
+<li>facebook.png - image for Facebook links</li>
+<li>twitter.png - image for Twitter links</li>
+<li>gplus.png - image for Google+ links</li>
+<li>linkedin.png - image for LinkedIn links</li>
+</ul>
+</li>
+</ul>
+
+<p>The images will only appear on the web. (They are placed as background images, and most browsers by default do not print background images.)</p>
+
+<h2>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features:</h2>
+
+<ul>
+<li>Fully responsive
+
+<ul>
+<li>quick navigation points for smaller screens</li>
+<li>fluid design up to 1000 pixels wide (to maintain maximum readable line lengths)</li>
+<li>icons for location/date in experience and education look crisp even on high DPI displays</li>
+</ul>
+</li>
+<li>hResume microformat for better semantic parsing by search engines</li>
+<li>Great print stylesheet; leave the Word or PDF résumé on your old ZIP disk</li>
+<li>Highlight the depth of your skills - visually convey which skills are strengths and which skills are average</li>
+<li>Simple to update and extend</li>
+</ul>
+
+<h2>
+<a id="setup" class="anchor" href="#setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Setup</h2>
+
+<ol>
+<li><p>Obviously, since you are reading this README file, you have already unzipped the contents of the file. Feel free to proceed to step 2.</p></li>
+<li><p>Customize the résumé to your heart's content.
+    a. If you're comfortable with HTML, feel free to dive right in and add your own personal details. Make sure to leave the classes intact to maintain the styles and hResume microformat.
+    b. If you're new to HTML, you have a few options.
+            i. Find a good "WYSIWYG" (What You See Is What You Get) web editor - a quick search on Google points me toward several reasonable sounding options, the most popular of which seems to be KompoZer.
+            ii. If you have a friend or family member who knows HTML, have them edit the page with your changes.
+            iii. Tough it out and add novice HTML to your skills</p></li>
+<li>
+<p>There are a couple things to note on customizing your résumé:
+    - For the photo, I recommend an image roughly 400 pixels wide by 500 pixels tall at 72 dpi. (The higher resolution looks better on high-DPI/retina displays.)
+            - If you would prefer to remove the photo, you will need to:
+                    - remove 'hasphoto' from the class attribute on the </p> tag
+                    - remove the entire section from START PHOTO BLOCK to END PHOTO BLOCK
+    - To customize the background, set the body tag's class to either:
+            - light: defaults to a light paper texture
+            - dark: defaults to a dark linen texture
+            - medium: defaults to a bamboo wood texture. Use medium for any background image with significant complexity (such as images or medium-range textures).
+    - You can also append the following optional classes on the body tag:
+            - tiled: to tile your background image repeatedly (great for seamless, repeating textures)
+            - full: to fill the page with your background image instead of tiling it (recommended for larger images or photos)
+            - fixed: to have your background image remain in place as the page is scrolled
+            - you can add both "full" and "fixed" to have a large image that stays fixed in place as you scroll
+    - There are several tiers to skills to help you visually show depth of experience. Those tiers are in order of experience:
+            - novice
+            - journeyman
+            - adept
+            - master
+            - guru
+        Be honest when assessing your skill level, and your interviews will go much more smoothly.
+    - Some sections may not be relevant depending on your career path. If you don't have or need to list a portfolio or publications, by all means, remove those sections. Be sure to remove the corresponding link from the navigation as well. (The navigation only displays at lower resolutions.)
+    - Social icons and links are available for Facebook, Twitter, LinkedIn, Google+, and Dribbble. If you need or want to include others, the full, matching set of icons is available for purchase from: <a href="http://lifetreecreative.com/icons/">http://lifetreecreative.com/icons/</a>
+</li>
+<li><p>Once you have updated your résumé, you will need to find a place to host it on the web. There are plenty of free or inexpensive hosting services available. Here are some recommendations:
+    - <a href="http://lifehacker.com/5530961/the-simplest-and-cheapest-free-web-hosting-services">The Simplest and Cheapest Free Web-Hosting Services</a>
+    - <a href="http://lifehacker.com/5528104/use-dropbox-to-share-and-host-your-web-site">Use Dropbox to Share and Host Your Web Site</a>
+    - <a href="http://lifehacker.com/5911651/five-best-web-hosting-companies">Five Best Web Hosting Companies</a>
+The main thing to look for is hosts that allow you to upload your own files. (Some free hosts require you to build the site through their templates.)</p></li>
+</ol>
+
+<h2>
+<a id="writing-a-great-résumé" class="anchor" href="#writing-a-great-r%C3%A9sum%C3%A9" aria-hidden="true"><span class="octicon octicon-link"></span></a>Writing a great résumé</h2>
+
+<ul>
+<li>Be honest, but don't be afraid to brag about your accomplishments.</li>
+<li>Experience lacking somewhere? Find ways to augment that with volunteer work or personal projects.</li>
+<li>Keep it short and sweet. Don't go over two pages. Make your descriptions sing with strong action verbs.</li>
+<li>Keep it relevant. If you're applying for a design job and have good relevant design experience, don't spend much (if any) time talking about that fast food job from high school.</li>
+<li>Don't lie. Sooner or later, it will come back to bite you.</li>
+</ul>
+
+<h2>
+<a id="thanks" class="anchor" href="#thanks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Thanks!</h2>
+
+<p>Thanks for purchasing the Best Foot Forward résumé template. If you have any further questions about customizing it, I would be happy to assist you at <a href="mailto:support@saunterstudios.com">support@saunterstudios.com</a>.</p>
+
+<h2>
+<a id="version-history" class="anchor" href="#version-history" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version History</h2>
+
+<p>1.1 - Latest Version
+        - Added a photo to the template
+        - Added a social networking section, including links and icons for Facebook, Twitter, Google+, LinkedIn, and Dribbbble</p>
+
+<p>1.0
+        - Responsive resume template
+        - Printer-friendly stylesheet
+        - Themes (light, dark, medium)
+        - Ranked skills list
+        - hResume format</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/stegrainer/best-foot-fwd">Best Foot Forward</a> is maintained by <a href="https://github.com/stegrainer">stegrainer</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
